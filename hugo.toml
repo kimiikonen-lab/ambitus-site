@@ -3,32 +3,59 @@ languageCode = 'it-it'
 title = 'Ambitus Observatory'
 theme = 'PaperMod'
 
-[params]
-  # Modifica questo testo con la descrizione del tuo sito
-  description = "Un osservatorio per ..."
-  
-  # L'autore di default per i post
-  author = "Luca"
+# Disabilita la generazione dei tassonomi se non ti servono
+disableKinds = ['taxonomy', 'term']
 
-  # Colore principale del tema (puoi scegliere 'light', 'dark', o 'auto')
+[params]
+  description = "Un osservatorio indipendente per ..."
+  author = "Luca"
   defaultTheme = "auto"
-  
-  # Mostra il pulsante per tornare in alto
-  ShowToC = true 
+  ShowToC = true
   ShowBreadCrumbs = true
+
+  # Opzioni utili di PaperMod
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  homeInfoParams = false  # lo attiviamo sotto in profileMode
 
   [params.profileMode]
     enabled = true
     title = "Ambitus Observatory"
     subtitle = "Osservatorio Indipendente."
-    
-    # Questo è il percorso dell'immagine del profilo (la aggiungeremo dopo)
-    imageUrl = ""
+    imageUrl = ""       # es. "/images/logo.png" quando caricherai il logo
     imageWidth = 120
     imageHeight = 120
     imageTitle = "Ambitus Logo"
 
-    # Puoi aggiungere i tuoi link social qui
     [[params.profileMode.buttons]]
       name = "Email"
       url = "mailto:info@ambitus-observatory.org"
+
+  [params.socialIcons]
+    [[params.socialIcons.entries]]
+      name = "email"
+      url = "mailto:info@ambitus-observatory.org"
+    # Aggiungi altri social quando vuoi, es:
+    # [[params.socialIcons.entries]]
+    #   name = "github"
+    #   url = "https://github.com/kimiikonen-lab"
+
+[menu]
+  [[menu.main]]
+    name = "Articoli"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "Chi siamo"
+    url = "/about/"
+    weight = 20
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true   # permette HTML nei markdown
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
