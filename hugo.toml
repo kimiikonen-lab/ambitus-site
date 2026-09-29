@@ -1,0 +1,26 @@
+baseURL = 'https://ambitusrelations.org/'
+languageCode = 'it-it'
+title = 'Ambitus'
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    title = 'Ambitus'
+    description = 'European Observatory on Interest Relations'
+    defaultTheme = 'light'
+    disableThemeToggle = false
+    ShowShareButtons = true
+    ShowReadingTime = true
+
+    [params.homeInfoParams]
+        Title = "Ambitus"
+        Content = "European Observatory on Interest Relations. Un centro di ricerca indipendente dedicato all'analisi scientifica e allo studio metodologico delle relazioni di interesse all'interno dell'Unione Europea."
+
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:info@ambitusrelations.org"
+[[menu.main]]
+    identifier = "research"
+    name = "Research & Reports"
+    url = "/posts/"
+    weight = 5

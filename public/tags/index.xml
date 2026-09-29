@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Ambitus</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Ambitus</description>
+    <generator>Hugo</generator>
+    <language>it-it</language>
+    <lastBuildDate>Tue, 29 Sep 2026 10:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Metodologia</title>
+      <link>http://localhost:1313/tags/metodologia/</link>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/metodologia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network Analysis</title>
+      <link>http://localhost:1313/tags/network-analysis/</link>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/network-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Policy Making</title>
+      <link>http://localhost:1313/tags/policy-making/</link>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/policy-making/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
