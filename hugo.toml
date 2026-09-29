@@ -1,26 +1,34 @@
-baseURL = 'https://ambitusrelations.org/'
+baseURL = 'https://ambitus-observatory.org/'
 languageCode = 'it-it'
-title = 'Ambitus'
+title = 'Ambitus Observatory'
 theme = 'PaperMod'
 
 [params]
-    env = 'production'
-    title = 'Ambitus'
-    description = 'European Observatory on Interest Relations'
-    defaultTheme = 'light'
-    disableThemeToggle = false
-    ShowShareButtons = true
-    ShowReadingTime = true
+  # Modifica questo testo con la descrizione del tuo sito
+  description = "Un osservatorio per ..."
+  
+  # L'autore di default per i post
+  author = "Luca"
 
-    [params.homeInfoParams]
-        Title = "Ambitus"
-        Content = "European Observatory on Interest Relations. Un centro di ricerca indipendente dedicato all'analisi scientifica e allo studio metodologico delle relazioni di interesse all'interno dell'Unione Europea."
+  # Colore principale del tema (puoi scegliere 'light', 'dark', o 'auto')
+  defaultTheme = "auto"
+  
+  # Mostra il pulsante per tornare in alto
+  ShowToC = true 
+  ShowBreadCrumbs = true
 
-    [[params.socialIcons]]
-        name = "email"
-        url = "mailto:info@ambitusrelations.org"
-[[menu.main]]
-    identifier = "research"
-    name = "Research & Reports"
-    url = "/posts/"
-    weight = 5
+  [params.profileMode]
+    enabled = true
+    title = "Ambitus Observatory"
+    subtitle = "Osservatorio Indipendente."
+    
+    # Questo è il percorso dell'immagine del profilo (la aggiungeremo dopo)
+    imageUrl = ""
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "Ambitus Logo"
+
+    # Puoi aggiungere i tuoi link social qui
+    [[params.profileMode.buttons]]
+      name = "Email"
+      url = "mailto:info@ambitus-observatory.org"
