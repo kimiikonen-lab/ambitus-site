@@ -33,16 +33,30 @@
     </item>
     <item>
       <title>About Ambitus</title>
-      <link>http://localhost:1313/it/about/</link>
+      <link>http://localhost:1313/it/chi-siamo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/it/about/</guid>
+      <guid>http://localhost:1313/it/chi-siamo/</guid>
       <description>La missione e la metodologia dell&amp;#39;European Observatory on Interest Relations.</description>
+    </item>
+    <item>
+      <title>Contatti</title>
+      <link>http://localhost:1313/it/contatti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/contatti/</guid>
+      <description></description>
     </item>
     <item>
       <title>Il Metodo</title>
       <link>http://localhost:1313/it/metodo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/it/metodo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indici</title>
+      <link>http://localhost:1313/it/indici/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/it/indici/</guid>
       <description></description>
     </item>
   </channel>
