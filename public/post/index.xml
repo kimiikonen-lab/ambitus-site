@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Ambitus</title>
-    <link>http://localhost:1313/post/</link>
+    <link>http://localhost:32883/post/</link>
     <description>Recent content in Posts on Ambitus</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 29 Sep 2026 10:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:32883/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oltre il Lobbismo: Mappatura Metodologica dell&#39;Ecosistema di Influenza Indiretta a Bruxelles</title>
-      <link>http://localhost:1313/post/oltre-il-lobbismo/</link>
+      <link>http://localhost:32883/post/oltre-il-lobbismo/</link>
       <pubDate>Tue, 29 Sep 2026 10:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/post/oltre-il-lobbismo/</guid>
+      <guid>http://localhost:32883/post/oltre-il-lobbismo/</guid>
       <description>&lt;p&gt;La rappresentanza degli interessi in Europa ha subito una mutazione strutturale. Il modello tradizionale del lobbismo diretto è stato affiancato da architetture di rete ibride e dinamiche di networking di ultima generazione. Per decostruire queste trasformazioni, l&amp;rsquo;European Observatory on Interest Relations (Ambitus) inaugura le sue attività implementando un framework analitico basato su tre direttrici fondamentali.&lt;/p&gt;
 &lt;h3 id=&#34;1-methodology--standards&#34;&gt;1. Methodology &amp;amp; Standards&lt;/h3&gt;
 &lt;p&gt;La valutazione dell&amp;rsquo;impatto sul policy-making richiede nuovi strumenti metrici. Il nostro primo obiettivo è la definizione di linee guida per isolare e misurare l&amp;rsquo;incidenza reale delle consultazioni pubbliche e degli emendamenti legislativi, separando l&amp;rsquo;efficacia dei vettori di pressione dal rumore di fondo istituzionale.&lt;/p&gt;</description>

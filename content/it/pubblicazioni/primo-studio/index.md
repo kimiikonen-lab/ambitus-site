@@ -3,6 +3,7 @@ title: "Studio di prova"
 date: 2026-09-30
 autori: "Luca"
 abstract: "Questo è un paper di prova per verificare che il sistema funzioni."
+translationKey: "primo-studio"
 ---
 
 ## Abstract

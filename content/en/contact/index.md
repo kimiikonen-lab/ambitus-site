@@ -1,3 +1,4 @@
 ---
 title: "Contact"
+translationKey: "contact"
 ---

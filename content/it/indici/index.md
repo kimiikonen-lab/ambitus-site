@@ -1,3 +1,4 @@
 ---
 title: "Indici"
+translationKey: "indices"
 ---

@@ -3,6 +3,7 @@ title: "Oltre il Lobbismo: Mappatura Metodologica dell'Ecosistema di Influenza I
 date: 2026-09-29T10:00:00+02:00
 draft: false
 tags: ["Metodologia", "Network Analysis", "Policy Making"]
+translationKey: "oltre-il-lobbismo"
 ---
 
 La rappresentanza degli interessi in Europa ha subito una mutazione strutturale. Il modello tradizionale del lobbismo diretto è stato affiancato da architetture di rete ibride e dinamiche di networking di ultima generazione. Per decostruire queste trasformazioni, l'European Observatory on Interest Relations (Ambitus) inaugura le sue attività implementando un framework analitico basato su tre direttrici fondamentali.

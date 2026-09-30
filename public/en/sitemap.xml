@@ -2,57 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:32883/</loc>
     <lastmod>2026-09-30T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="http://localhost:1313/it/"
+                href="http://localhost:32883/it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/"
+                href="http://localhost:32883/"
                 />
   </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>http://localhost:32883/publications/</loc>
     <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-it"
+                href="http://localhost:32883/it/pubblicazioni/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:32883/publications/"
+                />
   </url><url>
-    <loc>http://localhost:1313/publications/primo-studio/</loc>
+    <loc>http://localhost:32883/publications/primo-studio/</loc>
     <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-it"
+                href="http://localhost:32883/it/pubblicazioni/primo-studio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:32883/publications/primo-studio/"
+                />
   </url><url>
-    <loc>http://localhost:1313/post/oltre-il-lobbismo/</loc>
+    <loc>http://localhost:32883/post/oltre-il-lobbismo/</loc>
+    <lastmod>2026-09-29T10:00:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:32883/post/</loc>
     <lastmod>2026-09-29T10:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="http://localhost:1313/it/post/oltre-il-lobbismo/"
+                href="http://localhost:32883/it/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/post/oltre-il-lobbismo/"
+                href="http://localhost:32883/post/"
                 />
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-09-29T10:00:00+02:00</lastmod>
+    <loc>http://localhost:32883/about/</loc>
+  </url><url>
+    <loc>http://localhost:32883/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="it-it"
-                href="http://localhost:1313/it/post/"
+                href="http://localhost:32883/it/contatti/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/post/"
+                href="http://localhost:32883/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:32883/indices/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-it"
+                href="http://localhost:32883/it/indici/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:32883/indices/"
+                />
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
-  </url><url>
-    <loc>http://localhost:1313/indices/</loc>
-  </url><url>
-    <loc>http://localhost:1313/method/</loc>
+    <loc>http://localhost:32883/method/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-it"
+                href="http://localhost:32883/it/metodo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:32883/method/"
+                />
   </url>
 </urlset>
