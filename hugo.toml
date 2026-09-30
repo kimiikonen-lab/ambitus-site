@@ -1,61 +1,138 @@
 baseURL = 'https://ambitus-observatory.org/'
-languageCode = 'it-it'
-title = 'Ambitus Observatory'
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+title = 'Ambitus'
 theme = 'PaperMod'
 
 # Disabilita la generazione dei tassonomi se non ti servono
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  description = "Un osservatorio indipendente per ..."
-  author = "Luca"
-  defaultTheme = "auto"
-  ShowToC = true
-  ShowBreadCrumbs = true
+    env = 'production'
+    defaultTheme = 'light'
+    disableThemeToggle = false
+    disableLangToggle = false
+    ShowShareButtons = true
+    ShowReadingTime = true
 
-  # Opzioni utili di PaperMod
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
-  ShowRssButtonInSectionTermList = true
-  homeInfoParams = false  # lo attiviamo sotto in profileMode
+    [params.label]
+        icon = "/logo-compact.svg"
+        iconHeight = 48
 
-  [params.profileMode]
-    enabled = true
-    title = "Ambitus Observatory"
-    subtitle = "Osservatorio Indipendente."
-    imageUrl = ""       # es. "/images/logo.png" quando caricherai il logo
-    imageWidth = 120
-    imageHeight = 120
-    imageTitle = "Ambitus Logo"
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:info@ambitus-observatory.org"
 
-    [[params.profileMode.buttons]]
-      name = "Email"
-      url = "mailto:info@ambitus-observatory.org"
+# ============================================================
+# LINGUA INGLESE (default)
+# ============================================================
+[languages.en]
+    contentDir = "content/en"
+    label = "English"
+    locale = "en-US"
+    languageCode = "en-us"
+    weight = 1
+    title = "Ambitus"
+    description = 'European Observatory on Interest Groups'
 
-  [params.socialIcons]
-    [[params.socialIcons.entries]]
-      name = "email"
-      url = "mailto:info@ambitus-observatory.org"
-    # Aggiungi altri social quando vuoi, es:
-    # [[params.socialIcons.entries]]
-    #   name = "github"
-    #   url = "https://github.com/kimiikonen-lab"
+    [languages.en.params.homeInfoParams]
+        Title = "Ambitus"
+        Content = "European Observatory on Interest Groups. An independent research center dedicated to the scientific analysis and methodological study of interest relations within the European Union."
 
-[menu]
-  [[menu.main]]
-    name = "Articoli"
-    url = "/posts/"
-    weight = 10
-  [[menu.main]]
-    name = "Chi siamo"
-    url = "/about/"
-    weight = 20
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 10
 
-[markup]
-  [markup.goldmark.renderer]
-    unsafe = true   # permette HTML nei markdown
+      [[languages.en.menu.main]]
+        name = "Menu"
+        url = "#"
+        weight = 20
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+        [[languages.en.menu.main]]
+          name = "Publications"
+          url = "/publications/"
+          parent = "Menu"
+          weight = 1
+
+        [[languages.en.menu.main]]
+          name = "Indices"
+          url = "/indices/"
+          parent = "Menu"
+          weight = 2
+
+        [[languages.en.menu.main]]
+          name = "The Method"
+          url = "/method/"
+          parent = "Menu"
+          weight = 3
+
+        [[languages.en.menu.main]]
+          name = "About"
+          url = "/about/"
+          parent = "Menu"
+          weight = 4
+
+        [[languages.en.menu.main]]
+          name = "Contact"
+          url = "/contact/"
+          parent = "Menu"
+          weight = 5
+
+# ============================================================
+# LINGUA ITALIANA
+# ============================================================
+[languages.it]
+    contentDir = "content/it"
+    label = "Italiano"
+    locale = "it-IT"
+    languageCode = "it-it"
+    weight = 2
+    title = "Ambitus"
+    description = 'Osservatorio Europeo sui Gruppi di Interesse'
+
+    [languages.it.params.homeInfoParams]
+        Title = "Ambitus"
+        Content = "Osservatorio Europeo sui Gruppi di Interesse. Un centro di ricerca indipendente dedicato all'analisi scientifica e allo studio metodologico delle relazioni di interesse all'interno dell'Unione Europea."
+
+    [languages.it.menu]
+      [[languages.it.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 10
+
+      [[languages.it.menu.main]]
+        name = "Menu"
+        url = "#"
+        weight = 20
+
+        [[languages.it.menu.main]]
+          name = "Pubblicazioni"
+          url = "/pubblicazioni/"
+          parent = "Menu"
+          weight = 1
+
+        [[languages.it.menu.main]]
+          name = "Indici"
+          url = "/indici/"
+          parent = "Menu"
+          weight = 2
+
+        [[languages.it.menu.main]]
+          name = "Il Metodo"
+          url = "/metodo/"
+          parent = "Menu"
+          weight = 3
+
+        [[languages.it.menu.main]]
+          name = "Chi siamo"
+          url = "/chi-siamo/"
+          parent = "Menu"
+          weight = 4
+
+        [[languages.it.menu.main]]
+          name = "Contatti"
+          url = "/contatti/"
+          parent = "Menu"
+          weight = 5

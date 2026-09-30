@@ -1,0 +1,127 @@
+:root {
+    --primary: #1a2b4a;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-title, .entry-title,
+.logo a {
+    font-family: 'Inter', sans-serif;
+}
+
+.post-content img {
+    border-radius: 12px;
+}
+/* Header più alto */
+.header {
+    min-height: 100px;
+}
+
+.nav {
+    min-height: 100px;
+    line-height: 100px;
+}
+
+.logo a img,
+.logo img {
+    height: 70px !important;
+    width: auto;
+}
+/* Header a tutta larghezza */
+.nav {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+/* Forza margini header */
+.header {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.header-nav {
+    padding-left: 16px !important;
+    padding-right: 48px !important;
+    max-width: 100% !important;
+}
+
+.logo {
+    padding-left: 0 !important;
+}
+/* Colore navbar - solo l'header, non la pagina */
+.header {
+    background: #157a93e2 !important;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+/* Sottomenu a tendina */
+.menu li {
+    position: relative;
+}
+
+.menu li .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: auto;
+    background: #157a93;
+    padding: 10px 0;
+    min-width: 180px;
+    list-style: none;
+    margin: 0;
+    z-index: 100;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+.menu li .sub-menu li {
+    display: block;
+    padding: 0;
+}
+
+.menu li .sub-menu li a {
+    display: block;
+    padding: 8px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu li .sub-menu li a:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+/* Permetti al sottomenu di uscire dall'header */
+.header,
+.header-nav,
+#menu,
+.menu {
+    overflow: visible !important;
+}
+/* Pulsante tema nel menu */
+.menu li.menu-switches {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    padding: 0;
+}
+
+.menu li.menu-switches .logo-switches {
+    display: flex;
+    align-items: center;
+}
