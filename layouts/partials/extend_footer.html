@@ -1,0 +1,30 @@
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const menuItems = document.querySelectorAll('#menu li.has-children');
+
+    menuItems.forEach(function (item) {
+        const link = item.querySelector('a');
+
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            item.classList.toggle('open');
+        });
+    });
+
+    document.addEventListener('click', function (e) {
+        if (!e.target.closest('#menu li.has-children')) {
+            menuItems.forEach(function (item) {
+                item.classList.remove('open');
+            });
+        }
+    });
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            menuItems.forEach(function (item) {
+                item.classList.remove('open');
+            });
+        }
+    });
+});
+</script>

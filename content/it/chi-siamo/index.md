@@ -1,7 +1,6 @@
 ---
-title: "About Ambitus"
-description: "La missione e la metodologia dell'European Observatory on Interest Relations."
-draft: false
+title: "Chi siamo"
+translationKey: "about"
 ---
 
 **Ambitus** è un centro di ricerca indipendente dedicato allo studio metodologico e scientifico delle relazioni di interesse all'interno dell'Unione Europea.
